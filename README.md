@@ -14,7 +14,7 @@ docker run -d --rm -v $(pwd):/tmp/certs \
     -e CLUSTER_NAME=cluster_name
     -e REGION=region
     -e PROJECT_NAME=project_name
-    k8s-gcloud-deploy
+    matteo1010/k8s-gcloud-deploy-container:latest
 ```
 
 #### Inspiration
